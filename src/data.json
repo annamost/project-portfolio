@@ -7,8 +7,8 @@
         "HTML5",
         "CSS3"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://orca-news.netlify.app",
+      "github": "https://github.com/annamost/project-orca-news-site"
     },
     {
       "name": "Business site",
@@ -17,19 +17,8 @@
         "HTML5",
         "CSS3"
       ],
-      "netlify": "link",
-      "github": "link"
-    },
-    {
-      "name": "Pizzabot",
-      "image": "",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript"
-      ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://rent-a-plant.netlify.app",
+      "github": "https://github.com/annamost/project-business-site"
     },
     {
       "name": "Library",
@@ -39,8 +28,8 @@
         "CSS3",
         "JavaScript"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://pocketlibrary.netlify.app",
+      "github": "https://github.com/annamost/project-library"
     },
     {
       "name": "Weather app",
@@ -51,8 +40,20 @@
         "JavaScript",
         "APIs"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://smileyweather.netlify.app",
+      "github": "https://github.com/annamost/project-weather-app"
+    },
+    {
+      "name": "Pomodoro Timer",
+      "image": "",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "netlify": "https://cloudtimer.netlify.app",
+      "github": "https://github.com/annamost/project-pomodoro-timer"
     }
   ]
 }
