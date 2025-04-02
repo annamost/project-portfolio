@@ -2,7 +2,9 @@
   "projects": [
     {
       "name": "News site",
-      "image": "",
+      "id": 1,
+      "description": "This is a news site",
+      "image": "./project-images/unknown.jpg",
       "tags": [
         "HTML5",
         "CSS3"
@@ -12,7 +14,9 @@
     },
     {
       "name": "Business site",
-      "image": "",
+      "id": 2,
+      "description": "This is a news site",
+      "image": "./project-images/unknown.jpg",
       "tags": [
         "HTML5",
         "CSS3"
@@ -22,7 +26,9 @@
     },
     {
       "name": "Library",
-      "image": "",
+      "id": 3,
+      "description": "This is a news site",
+      "image": "./project-images/unknown.jpg",
       "tags": [
         "HTML5",
         "CSS3",
@@ -33,7 +39,9 @@
     },
     {
       "name": "Weather app",
-      "image": "",
+      "id": 4,
+      "description": "This is a news site",
+      "image": "./project-images/unknown.jpg",
       "tags": [
         "HTML5",
         "CSS3",
@@ -45,7 +53,9 @@
     },
     {
       "name": "Pomodoro Timer",
-      "image": "",
+      "id": 5,
+      "description": "This is a news site",
+      "image": "./project-images/unknown.jpg",
       "tags": [
         "HTML5",
         "CSS3",
