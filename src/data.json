@@ -65,5 +65,52 @@
       "netlify": "https://cloudtimer.netlify.app",
       "github": "https://github.com/annamost/project-pomodoro-timer"
     }
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "link": "https://github.com/annamost",
+      "image": "./logo-images/Btn - github.svg"
+    },
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/anna-ostenrath-6365bb353/",
+      "image": "./logo-images/Btn - linkedin.svg"
+    }
+  ],
+  "photos": [
+    {
+      "name": "profile-pciture",
+      "image": "./project-images/photo_2025-03-19_10-58-13.jpg"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Code",
+      "skill": [
+        "HTML5",
+        "CSS3",
+        "JavaScript ES6",
+        "React",
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Toolboxes",
+      "skill": [
+        "Vite",
+        "Figma",
+        "Slack",
+        "Adobe Illustrator"
+      ]
+    },
+    {
+      "name": "Upcomming",
+      "skill": [
+        "Node.js",
+        "Redux",
+        "Jest"
+      ]
+    }
   ]
 }

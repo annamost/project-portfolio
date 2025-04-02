@@ -19,30 +19,34 @@ code {
 }
 
 .project-slider {
-  width: 100%;
+  width: 50%;
   background-color: grey;
 
 }
 
 .project-card {
-  width: 100px;
+  width: auto;
   background-color: green;
 }
 
 img {
-  width: 50px;
+  width: 100px;
 }
+
 
 .slick-slide>div {
   margin: 0 10px;
 }
 
+
 .slick-prev {
-  left: 3% !important;
-  z-index: 1;
+  /* left: 3% !important;
+  z-index: 1; */
+  background-color: red;
 }
 
 .slick-next {
-  right: 3% !important;
-  z-index: 1;
+  /* right: 3% !important;
+  z-index: 1; */
+  background-color: red;
 }
