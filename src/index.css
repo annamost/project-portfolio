@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.project-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-slider {
+  width: 100%;
+  background-color: grey;
+
+}
+
+.project-card {
+  width: 100px;
+  background-color: green;
+}
+
+img {
+  width: 50px;
+}
+
+.slick-slide>div {
+  margin: 0 10px;
+}
+
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}

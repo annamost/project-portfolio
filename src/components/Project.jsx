@@ -9,7 +9,7 @@ import { ProjectTags } from "./ProjectTags";
 export const Project = ({ name, description, tags, github, netlify, id, image }) => {
 
     return (
-        <div>
+        <div className="project-card">
             <ProjectImg key={image} image={image} />
             <ProjectName key={name} name={name} />
             <ProjectDescription key={description} description={description} />
