@@ -91,6 +91,7 @@
         "HTML5",
         "CSS3",
         "JavaScript ES6",
+        "TypeScript",
         "React",
         "GitHub"
       ]
@@ -112,5 +113,8 @@
         "Jest"
       ]
     }
+  ],
+  "tech": [
+    "HTML, CSS, Flexbox, JavaScript, ES6, JSX, TypeScript, React, React Hooks, GitHub. "
   ]
 }

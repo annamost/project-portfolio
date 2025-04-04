@@ -10,19 +10,28 @@ export const App = () => {
   const allProjects = data.projects;
   const allLinks = data.links;
   const allSkills = data.skills;
+  const allTech = data.tech;
   const settings = {
     arrows: true,
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 2,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
   };
   return (
     <main>
       <div className="hero-section">
         <div className="hero-text">
-          <h2>I am Anna Ostenrath</h2>
+          <h3>I am Anna Ostenrath</h3>
           <h1>Frontend Developer</h1>
           <p>bla bla bla </p>
           <div className="logo-list">
@@ -33,11 +42,13 @@ export const App = () => {
         </div>
       </div>
       <div className="skills-section">
-        {allSkills.map((skill) => {
-          return <SkillsColumn name={skill.name} skills={skill.skill} />
+        <h2>Skills</h2>
+        {allSkills.map((skill, index) => {
+          return <SkillsColumn key={index} name={skill.name} skills={skill.skill} />
         })}
       </div>
       <div className="project-section">
+        <h2>Projects</h2>
         <div className="project-slider">
           <Slider {...settings}>
             {allProjects.map((project) => {
@@ -45,6 +56,10 @@ export const App = () => {
             })}
           </Slider>
         </div>
+      </div>
+      <div className="tech-section">
+        <h2>Tech</h2>
+        <p className="tech-text">{allTech}</p>
       </div>
       <div className="call-to-action">
         <div className="profile-container">

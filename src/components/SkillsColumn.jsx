@@ -2,10 +2,10 @@
 
 export const SkillsColumn = ({ name, skills }) => {
     return (
-        <div>
-            <h2>{name}</h2>
+        <div className="skill-column">
+            <h3 key={name} className={name}>{name}</h3>
             {skills.map((skill) => {
-                return <p>{skill}</p>
+                return <p key={skill}>{skill}</p>
             })}
         </div>
     );

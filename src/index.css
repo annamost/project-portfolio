@@ -1,10 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --front-color: #EE3D2D;
+  --background-color: #FCE5D9;
+  --bottom-margin: 30px;
+}
+
+body {
+  margin: 0;
+}
+
+
+h1 {
+  font-family: "Corben", serif;
+  font-style: bold;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Corben", serif;
+  font-style: bold;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 0;
 }
 
 code {
@@ -12,15 +37,63 @@ code {
     monospace;
 }
 
+.hero-section {
+  margin-top: 20px;
+}
+
+.hero-text {
+  padding: 0 20px;
+}
+
+.logo-list {
+  height: 30px;
+}
+
+.logo-list img {
+  height: 100%;
+  width: auto;
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: var(--background-color);
+  margin-bottom: var(--bottom-margin);
+}
+
+.skill-column {
+  text-align: center;
+}
+
+/* adding the lines for inbetween the skill colums */
+.skill-column h3 {
+  min-width: 150px;
+}
+
+.Code {
+  padding-top: 10px;
+}
+
+.Toolboxes,
+.Upcomming {
+  border-top: solid var(--front-color);
+  padding-top: 10px;
+}
+
+/* here we are styling the carousel */
 .project-section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: var(--bottom-margin);
 }
 
 .project-slider {
-  width: 50%;
-  background-color: grey;
+  width: 80%;
+  /* i need to make a min height maybe */
 
 }
 
@@ -49,4 +122,36 @@ img {
   /* right: 3% !important;
   z-index: 1; */
   background-color: red;
+}
+
+.tech-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: var(--bottom-margin);
+
+}
+
+.tech-text {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.call-to-action {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+}
+
+.profile-container img {
+  border-radius: 40px;
+  height: 150px;
+  width: auto;
+}
+
+.call-text h2 {
+  color: var(--front-color);
+  /* text-transform: uppercase; */
 }
