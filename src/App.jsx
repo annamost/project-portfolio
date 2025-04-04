@@ -66,7 +66,7 @@ export const App = () => {
           <img src={data.photos[0].image} alt="" />
         </div>
         <div className="call-text">
-          <h2>Let's Talk!</h2>
+          <h2>Let's talk!</h2>
           <p>Anna Ostenrath</p>
           <p>anna.ostenrath@gmail.com</p>
           <div className="logo-list">

@@ -2,12 +2,12 @@
 
 export const ProjectLinks = ({ github, netlify }) => {
     return (
-        <div>
+        <div className="button-container">
             <a href={github}>
-                <button>View Code </button>
+                <button className="code-button">View Code </button>
             </a>
             <a href={netlify}>
-                <button>View live </button>
+                <button className="link-button">View live </button>
             </a>
         </div>
     );

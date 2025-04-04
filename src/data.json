@@ -4,7 +4,7 @@
       "name": "News site",
       "id": 1,
       "description": "This is a news site",
-      "image": "./project-images/unknown.jpg",
+      "image": "./project-images/orca-news.png",
       "tags": [
         "HTML5",
         "CSS3"
@@ -16,7 +16,7 @@
       "name": "Business site",
       "id": 2,
       "description": "This is a news site",
-      "image": "./project-images/unknown.jpg",
+      "image": "./project-images/rent-a-plant.png",
       "tags": [
         "HTML5",
         "CSS3"
@@ -28,7 +28,7 @@
       "name": "Library",
       "id": 3,
       "description": "This is a news site",
-      "image": "./project-images/unknown.jpg",
+      "image": "./project-images/pocket-library.png",
       "tags": [
         "HTML5",
         "CSS3",
@@ -41,7 +41,7 @@
       "name": "Weather app",
       "id": 4,
       "description": "This is a news site",
-      "image": "./project-images/unknown.jpg",
+      "image": "./project-images/smiley-weather.png",
       "tags": [
         "HTML5",
         "CSS3",
@@ -55,7 +55,7 @@
       "name": "Pomodoro Timer",
       "id": 5,
       "description": "This is a news site",
-      "image": "./project-images/unknown.jpg",
+      "image": "./project-images/cloud-timer.png",
       "tags": [
         "HTML5",
         "CSS3",

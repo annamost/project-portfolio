@@ -2,9 +2,9 @@
 
 export const ProjectTags = ({ tags }) => {
     return (
-        <div>
+        <div className="all-tags">
             {tags.map((tag, index) => {
-                return <h4 key={index}> {tag} </h4>
+                return <p key={index}> {tag} </p>
             })}
         </div>
     );

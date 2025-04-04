@@ -11,10 +11,16 @@ export const Project = ({ name, description, tags, github, netlify, id, image })
     return (
         <div className="project-card">
             <ProjectImg key={image} image={image} />
-            <ProjectName key={name} name={name} />
-            <ProjectDescription key={description} description={description} />
-            <ProjectTags key={id} tags={tags} />
+            <div className="project-text">
+                <ProjectTags key={id} tags={tags} />
+
+                <ProjectName key={name} name={name} />
+
+                <ProjectDescription key={description} description={description} />
+
+            </div>
             <ProjectLinks key={github} github={github} netlify={netlify} />
+
 
         </div>
     );
