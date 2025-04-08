@@ -7,7 +7,7 @@ export const ProjectLinks = ({ github, netlify }) => {
                 <button className="code-button">View Code </button>
             </a>
             <a href={netlify}>
-                <button className="link-button">View live </button>
+                <button className="link-button">View Live </button>
             </a>
         </div>
     );
