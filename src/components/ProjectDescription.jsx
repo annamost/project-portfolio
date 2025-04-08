@@ -2,6 +2,6 @@
 
 export const ProjectDescription = ({ description }) => {
     return (
-        <p>{description}</p>
+        <p className="description">{description}</p>
     );
 }

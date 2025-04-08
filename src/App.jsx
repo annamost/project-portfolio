@@ -31,14 +31,17 @@ export const App = () => {
     <main>
       <div className="hero-section">
         <div className="hero-text">
-          <h3>I am Anna Ostenrath</h3>
+          <h3>I am Anna Ostenrath.</h3>
           <h1>Frontend Developer</h1>
-          <p>bla bla bla </p>
+          {/* <p>Anna is an experienced programmer creating innovative solutions and user-friendly applications. </p> */}
           <div className="logo-list">
             {allLinks.map((link) => {
               return <LogoLink key={link.name} link={link.link} image={link.image} />
             })}
           </div>
+        </div>
+        <div className="sketch-container">
+          <img src={data.photos[1].image} alt="" />
         </div>
       </div>
       <div className="skills-section">
