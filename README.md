@@ -1,11 +1,15 @@
 # Portfolio
+Project brief: Build a portfolio website with React. 
 
-Replace this readme with your own information about the project. You can include things like:
+## Tech stack
+- React
+- JavaScript
+- HTML
+- CSS
 
-- Brief description of the assignment
-- How you approached the task, what tools and techniques you used, and how you planned it
-- If you had more time, what would be next?
-- How to run the project locally
+## Project
+
+In this project I created my own portfolio website using React. I gathered all the data about each project, location of img files, etc. into a json file. This makes it easier to update the website in the future. I started by creating different components for each project (eg. name, image, tags, links) to reuse them for each project. Using .map I could then mount each project onto the website. To display the projects I decided to use a caroussel (React Slick). For each project I created a mockup in Canvas. 
 
 ## View it live
 Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
