@@ -336,13 +336,38 @@ code {
   }
 
   .hero-text {
-    grid-column: 4 / 7;
+    grid-column: 3 / 8;
     z-index: 2;
   }
 
-  .sketch-container {
-    grid-column: 7 / 11;
+  h1 {
+    font-size: 70px;
+    line-height: 70px;
+  }
 
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .Code,
+  .Toolboxes,
+  .Upcomming {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .sketch-container {
+    grid-column: 8 / 12;
+
+  }
+
+  .logo-list {
+    margin-top: 10px;
+    height: 40px;
   }
 
   .skills-section {
