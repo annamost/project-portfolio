@@ -223,19 +223,19 @@ code {
 
 
 .slick-prev {
-  /* left: 3% !important;
-  z-index: 1; */
-  background-color: var(--background-color);
+  left: 7% !important;
+  z-index: 1;
+
 }
 
 .slick-next {
-  /* right: 3% !important;
-  z-index: 1; */
-  background-color: var(--background-color);
+  right: 7% !important;
+  z-index: 1;
+
 }
 
 /* .slick-dots {
-  background-color: var(--background-color);
+  height: 10px;
 
 } */
 
