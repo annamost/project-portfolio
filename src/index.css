@@ -198,11 +198,11 @@ code {
 } */
 
 .button-container button {
-  width: 125px;
+  width: 120px;
   height: 35px;
   font-family: "Roboto", sans-serif;
   border-radius: 40px;
-  font-size: 14pt;
+  font-size: 12pt;
 }
 
 .code-button {
