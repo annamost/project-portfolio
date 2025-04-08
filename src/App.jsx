@@ -25,6 +25,7 @@ export const App = () => {
           slidesToShow: 1,
         }
       }
+
     ]
   };
   return (
@@ -46,9 +47,11 @@ export const App = () => {
       </div>
       <div className="skills-section">
         <h2>Skills</h2>
-        {allSkills.map((skill, index) => {
-          return <SkillsColumn key={index} name={skill.name} skills={skill.skill} />
-        })}
+        <div className="skill-column-container">
+          {allSkills.map((skill, index) => {
+            return <SkillsColumn key={index} name={skill.name} skills={skill.skill} />
+          })}
+        </div>
       </div>
       <div className="project-section">
         <h2>Projects</h2>
