@@ -12,7 +12,7 @@ Project brief: Build a portfolio website with React.
 In this project I created my own portfolio website using React. I gathered all the data about each project, location of img files, etc. into a json file. This makes it easier to update the website in the future. I started by creating different components for each project (eg. name, image, tags, links) to reuse them for each project. Using .map I could then mount each project onto the website. To display the projects I decided to use a caroussel (React Slick). For each project I created a mockup in Canvas and linked to their GitHub Repo and to where they are deployed. I then created the other sections and also created a reusable component for the skill columns. As I wanted a responsive website, I then styled the page following the mobile first principle and then after that building the tablet and desktop versions. Added hover effect and a favicon.    
 
 ## View it live
-Project is deployed here: [Portfolio](https://test)
+Project is deployed here: [Portfolio](https://annaostenrath.com)
 
 
 ## Getting Started with the Project
