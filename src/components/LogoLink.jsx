@@ -2,7 +2,7 @@
 
 export const LogoLink = ({ link, image }) => {
     return (
-        <a href={link}>
+        <a href={link} target="_blank">
             <img src={image} alt="" />
         </a>
     );
