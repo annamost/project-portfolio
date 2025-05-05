@@ -1,7 +1,5 @@
-// This will display the project image 
+// This will display the project image
 
 export const ProjectImg = ({ image }) => {
-    return (
-        <img src={image} alt="project" />
-    );
-}
+  return <img src={image} alt="project" />;
+};

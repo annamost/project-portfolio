@@ -1,7 +1,5 @@
-// This is for the description of the project 
+// This is for the description of the project
 
 export const ProjectDescription = ({ description }) => {
-    return (
-        <p className="description">{description}</p>
-    );
-}
+  return <p className="description">{description}</p>;
+};

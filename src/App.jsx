@@ -1,5 +1,5 @@
 import { Project } from "./components/Project";
-import data from "./data.json"
+import data from "./data.json";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -23,10 +23,9 @@ export const App = () => {
         breakpoint: 800,
         settings: {
           slidesToShow: 1,
-        }
-      }
-
-    ]
+        },
+      },
+    ],
   };
   return (
     <main>
@@ -37,7 +36,9 @@ export const App = () => {
           {/* <p>Anna is an experienced programmer creating innovative solutions and user-friendly applications. </p> */}
           <div className="logo-list">
             {allLinks.map((link) => {
-              return <LogoLink key={link.name} link={link.link} image={link.image} />
+              return (
+                <LogoLink key={link.name} link={link.link} image={link.image} />
+              );
             })}
           </div>
         </div>
@@ -49,7 +50,13 @@ export const App = () => {
         <h2>Skills</h2>
         <div className="skill-column-container">
           {allSkills.map((skill, index) => {
-            return <SkillsColumn key={index} name={skill.name} skills={skill.skill} />
+            return (
+              <SkillsColumn
+                key={index}
+                name={skill.name}
+                skills={skill.skill}
+              />
+            );
           })}
         </div>
       </div>
@@ -58,7 +65,18 @@ export const App = () => {
         <div className="project-slider">
           <Slider {...settings}>
             {allProjects.map((project) => {
-              return <Project key={project.id} name={project.name} description={project.description} tags={project.tags} github={project.github} netlify={project.netlify} id={project.id} image={project.image} />
+              return (
+                <Project
+                  key={project.id}
+                  name={project.name}
+                  description={project.description}
+                  tags={project.tags}
+                  github={project.github}
+                  netlify={project.netlify}
+                  id={project.id}
+                  image={project.image}
+                />
+              );
             })}
           </Slider>
         </div>
@@ -77,13 +95,13 @@ export const App = () => {
           <p>anna.ostenrath@gmail.com</p>
           <div className="logo-list">
             {allLinks.map((link) => {
-              return <LogoLink key={link.name} link={link.link} image={link.image} />
+              return (
+                <LogoLink key={link.name} link={link.link} image={link.image} />
+              );
             })}
           </div>
-
         </div>
       </div>
     </main>
   );
-
-}
+};

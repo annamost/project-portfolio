@@ -1,20 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
   margin: 0;
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --front-color: #EE3D2D;
-  --background-color: #FCE5D9;
-  --opacity-background: rgba(252, 229, 217, .6);
-  --bottom-margin: 30px;
+  --front-color: #ee3d2d;
+  --background-color: #fce5d9;
+  --opacity-background: rgba(252, 229, 217, 0.6);
+  --bottom-margin: 60px;
 }
 
 body {
   margin: 0;
 }
-
 
 h1 {
   font-family: "Corben", serif;
@@ -41,8 +40,8 @@ p {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 .hero-section {
@@ -52,7 +51,6 @@ code {
   justify-content: center;
   align-items: center;
   margin-bottom: var(--bottom-margin);
-
 }
 
 .hero-text {
@@ -64,7 +62,6 @@ code {
   font-weight: 400;
   margin: 0;
 }
-
 
 .logo-list {
   height: 30px;
@@ -91,7 +88,6 @@ code {
   /* background-color: var(--background-color); */
   margin-bottom: var(--bottom-margin);
   /* border-top: solid var(--front-color); */
-
 }
 
 .skills-section h3 {
@@ -113,7 +109,7 @@ code {
 }
 
 .Toolboxes,
-.Upcomming {
+.Upcoming {
   border-top: solid var(--front-color);
   padding-top: 10px;
 }
@@ -132,8 +128,6 @@ code {
 .project-slider {
   width: 80%;
   /* i need to make a min height maybe */
-
-
 }
 
 .project-card {
@@ -180,7 +174,6 @@ code {
   /* color: white; */
   /* border-radius: 40px; */
   /* font-style: normal; */
-
 }
 
 .button-container {
@@ -217,14 +210,12 @@ code {
   color: var(--front-color);
 }
 
-.slick-slide>div {
+.slick-slide > div {
   margin: 0 10px;
 }
 
-
 .slick-prev {
   display: none;
-
 }
 
 .slick-next {
@@ -241,7 +232,6 @@ code {
   flex-direction: column;
   align-items: center;
   margin-bottom: var(--bottom-margin);
-
 }
 
 .tech-text {
@@ -269,7 +259,7 @@ code {
   /* text-transform: uppercase; */
 }
 
-@media (min-width: 668px) and (max-width:1024px) {
+@media (min-width: 668px) and (max-width: 1024px) {
   .hero-section {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -283,7 +273,6 @@ code {
 
   .sketch-container {
     grid-column: 8 / 12;
-
   }
 
   .skills-section {
@@ -304,7 +293,7 @@ code {
   }
 
   .Toolboxes,
-  .Upcomming {
+  .Upcoming {
     border-top: none;
   }
 
@@ -332,9 +321,6 @@ code {
     z-index: 1;
 
   } */
-
-
-
 }
 
 @media (min-width: 1025px) {
@@ -365,14 +351,13 @@ code {
 
   .Code,
   .Toolboxes,
-  .Upcomming {
+  .Upcoming {
     font-size: 25px;
     margin-bottom: 10px;
   }
 
   .sketch-container {
     grid-column: 8 / 12;
-
   }
 
   .logo-list {
@@ -398,7 +383,7 @@ code {
   }
 
   .Toolboxes,
-  .Upcomming {
+  .Upcoming {
     border-top: none;
   }
 
@@ -418,13 +403,10 @@ code {
   .slick-prev {
     left: 7% !important;
     z-index: 1;
-
   }
 
   .slick-next {
     right: 7% !important;
     z-index: 1;
-
   }
-
 }

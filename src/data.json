@@ -5,12 +5,7 @@
       "id": 4,
       "description": "Weather app using an open API to get current weather and predictions. Self-drawn image and background changes according to the weather.",
       "image": "./project-images/smiley-weather.png",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "APIs"
-      ],
+      "tags": ["HTML5", "CSS3", "JavaScript", "APIs"],
       "netlify": "https://smileyweather.netlify.app",
       "github": "https://github.com/annamost/project-weather-app"
     },
@@ -19,12 +14,7 @@
       "id": 5,
       "description": "Classic Pomordoro timer build in TypeScript.",
       "image": "./project-images/cloud-timer.png",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "TypeScript"
-      ],
+      "tags": ["HTML5", "CSS3", "JavaScript", "TypeScript"],
       "netlify": "https://cloudtimer.netlify.app",
       "github": "https://github.com/annamost/project-pomodoro-timer"
     },
@@ -33,10 +23,7 @@
       "id": 1,
       "description": "Responsive website using purely HTML and CSS.",
       "image": "./project-images/orca-news.png",
-      "tags": [
-        "HTML5",
-        "CSS3"
-      ],
+      "tags": ["HTML5", "CSS3"],
       "netlify": "https://orca-news.netlify.app",
       "github": "https://github.com/annamost/project-orca-news-site"
     },
@@ -45,10 +32,7 @@
       "id": 2,
       "description": "Responsive website build in HTML and CSS with a focus on the hero section and including forms.",
       "image": "./project-images/rent-a-plant.png",
-      "tags": [
-        "HTML5",
-        "CSS3"
-      ],
+      "tags": ["HTML5", "CSS3"],
       "netlify": "https://rent-a-plant.netlify.app",
       "github": "https://github.com/annamost/project-business-site"
     },
@@ -57,11 +41,7 @@
       "id": 3,
       "description": "Responsive website build in JavaScript using different filtering and sorting options by using different buttons and selections.",
       "image": "./project-images/pocket-library.png",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript"
-      ],
+      "tags": ["HTML5", "CSS3", "JavaScript"],
       "netlify": "https://pocketlibrary.netlify.app",
       "github": "https://github.com/annamost/project-library"
     }
@@ -108,20 +88,11 @@
     },
     {
       "name": "Toolboxes",
-      "skill": [
-        "Figma",
-        "Vite",
-        "Slack",
-        "Adobe Illustrator"
-      ]
+      "skill": ["Figma", "Vite", "Slack", "Adobe Illustrator"]
     },
     {
       "name": "Upcoming",
-      "skill": [
-        "Node.js",
-        "Redux",
-        "Jest"
-      ]
+      "skill": ["Node.js", "Redux", "Jest"]
     }
   ],
   "tech": [
